@@ -16,6 +16,7 @@ public class SonarTest {
 		}
 		
 		public void dummy(int number, List<String> names) {
+                        number = 10;
 			if (number == 0) {
 				System.out.println("zero");
 			}
